@@ -1,0 +1,21 @@
+baseURL = "https://guigustavo.github.io/"
+languageCode = "pt-br"
+title = "Guilherme Colombo"
+theme = "PaperMod"
+
+[params]
+  description = "Linux, open source e tecnologia em português"
+  homeInfoParams = {Title = "Bem vindo", Content = "Benchmarks, Linux, Windows e outras coisas interessantes sobre tecnologia."}
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Sobre"
+    url = "/about/"
+    weight = 2
